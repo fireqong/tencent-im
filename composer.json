@@ -1,0 +1,29 @@
+{
+    "name": "church/tencent-im",
+    "description": "tencent im sdk",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Church\\TencentIm\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Church\\TencentIm\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "church",
+            "email": "church_qi@aliyun.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "symfony/dotenv": "^5.4"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    }
+}
