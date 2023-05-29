@@ -5,7 +5,7 @@
 ### 安装
 
 ```shell
-composer require church/tencent-im dev-master
+composer require church/tencent-im dev-main
 ```
 
 ### 使用
